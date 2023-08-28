@@ -13,25 +13,41 @@ body{
 }
 
 .calender__container{
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 250px;
     display: flex;
     border-radius: 10px;
     background: #0d0d0d;
 }
 
 .calender__container-left{
-    width: 50%;
+    width: 60%;
     height: 100%;
+    color: #ffffff;
     background: #778da9;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 .calender__container-right{
-    width: 50%;
+    width: 40%;
     height: 100%;
+    color: #000000;
     background: #e0e1dd;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
+
+.calender__container-left,.calender__container-right{
+    gap: 20px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#date{
+    font-size: 100px;
+}
